@@ -1,0 +1,6 @@
+[submodule "Arduino_Code/libs/PinChangeInt"]
+	path = Arduino_Code/libs/PinChangeInt
+	url = https://github.com/GreyGnome/PinChangeInt
+[submodule "Arduino_Code/libs/WatchDog"]
+	path = Arduino_Code/libs/WatchDog
+	url = https://github.com/nadavmatalon/WatchDog.git

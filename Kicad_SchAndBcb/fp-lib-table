@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Socket_Arduino_Pro_Mini)(type KiCad)(uri ${KIPRJMOD}/Socket_Arduino_Pro_Mini.pretty)(options "")(descr ""))
+  (lib (name OneTouchM3)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name Arduino_Pro_Mini)(type KiCad)(uri ${KICAD_TEMPLATE_DIR}/Arduino_Pro_Mini/Socket_Arduino_Pro_Mini.pretty)(options "")(descr ""))
+)

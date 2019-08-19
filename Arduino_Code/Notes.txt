@@ -1,0 +1,22 @@
+Commands:
+Socat tty for seeing traces - stdio: socat file:/dev/ttyUSB0,b115200,raw,echo=0,crnl -
+Socat tty for seeing traces - tcp socket: socat file:/dev/ttyUSB0,b115200,raw,echo=0,crnl TCP-LISTEN:1234,forever,reuseaddr,fork
+
+Small red led: 1.8V, 13.8mA. For 5V it needs an R = 1K; week light
+
+Arduino input pins:
+- 12V -> diode -> R1 100K ohm +-> R2 4.7K ohm -> GND
+                             +-> C1 0.1 uF -> GND
+- the signal is peeked-up from the point between R1 and the other R2 + C1 (shouldn't surpass 5V). However, due to internal protection diodes, with the resistors from above it should withstand to 100V
+
+Used pins:
+-  2 [IN]: righ turn switch
+-  3 [IN]: left turn switch
+-  4 [IN]: right bulb light (blink) signal
+- 12 [IN]: left bulb light (blink) signal
+-  5 [OUT]: right BCM signal (BCM stands for Body Control Module or Unitate de Control Habitablu in Romaninan)
+-  6 [OUT]: left BCM signal  (BCM stands for Body Control Module or Unitate de Control Habitablu in Romaninan)
+
+Caveats
+- Arduino MiniPro has a bug in the bootloader which continuously restart the board if it was restarted by watchdog timer
+- circular buffer with events pushed by ISRS gets corrupted after a while. To be investigated why ...

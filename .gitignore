@@ -1,0 +1,8 @@
+Arduino_Code/nbproject/*.mk
+Arduino_Code/nbproject/*.bash
+Arduino_Code/nbproject/private
+Arduino_Code/Debug/
+Arduino_Code/Release/
+Kicad_SchAndBcb/Out/*
+Kicad_SchAndBcb/*bak
+

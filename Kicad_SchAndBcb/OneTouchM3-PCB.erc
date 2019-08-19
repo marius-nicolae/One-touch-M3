@@ -1,0 +1,7 @@
+ERC report (Tue 13 Nov 2018 05:06:18 PM EET, Encoding UTF8 )
+
+***** Sheet /
+ErrType(7): A no connect symbol is connected to more than 1 pin
+    @ (157.48 mm,38.10 mm): More than 1 pin connected to an UnConnect symbol.
+
+ ** ERC messages: 1  Errors 0  Warnings 1

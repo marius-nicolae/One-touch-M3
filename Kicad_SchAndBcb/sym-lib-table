@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OneTouchM3-PCB-cache)(type Legacy)(uri ${KIPRJMOD}/OneTouchM3-PCB-cache.lib)(options "")(descr ""))
+  (lib (name Arduino_Pro_Mini-cache)(type Legacy)(uri /usr/share/kicad/template/Arduino_Pro_Mini/Arduino_Pro_Mini-cache.lib)(options "")(descr ""))
+)

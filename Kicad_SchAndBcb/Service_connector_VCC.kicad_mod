@@ -1,0 +1,9 @@
+(module Service_connector_VCC (layer F.Cu) (tedit 5BF17A33)
+  (fp_text reference "" (at 3.8862 -0.8128) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Service_connector_VCC (at 0 -3.0988) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
+)

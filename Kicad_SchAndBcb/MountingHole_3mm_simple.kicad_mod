@@ -1,0 +1,15 @@
+(module MountingHole_3mm_simple (layer F.Cu) (tedit 5BF1D194)
+  (descr "Mounting Hole 3mm, no annular")
+  (tags "mounting hole 3mm no annular")
+  (attr virtual)
+  (fp_text reference "" (at 0 -4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "" (at 0 4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user "" (at 5.3467 -0.3683) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+)
